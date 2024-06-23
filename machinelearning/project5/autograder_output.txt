@@ -1,0 +1,925 @@
+(base) kyle@Kyles-MacBook-Pro machinelearning % python autograder.py -q q1
+
+Question q1
+===========
+*** q1) check_perceptron
+Sanity checking perceptron...
+Sanity checking perceptron weight updates...
+Sanity checking complete. Now training perceptron
+*** PASS: check_perceptron
+
+### Question q1: 6/6 ###
+
+(base) kyle@Kyles-MacBook-Pro machinelearning % python autograder.py -q q1
+
+Question q1
+===========
+*** q1) check_perceptron
+Sanity checking perceptron...
+Sanity checking perceptron weight updates...
+Sanity checking complete. Now training perceptron
+*** PASS: check_perceptron
+
+### Question q1: 6/6 ###
+
+(base) kyle@Kyles-MacBook-Pro machinelearning % python autograder.py      
+
+Question q1
+===========
+*** q1) check_perceptron
+Sanity checking perceptron...
+Sanity checking perceptron weight updates...
+Sanity checking complete. Now training perceptron
+*** PASS: check_perceptron
+
+### Question q1: 6/6 ###
+
+Question q2
+===========
+*** q2) check_regression
+Your final loss is: 0.000987
+*** PASS: check_regression
+
+### Question q2: 6/6 ###
+
+Question q3
+===========
+*** q3) check_digit_classification
+0.9412
+0.9582
+0.9646
+0.9708
+0.9732
+0.9762
+Your final test set accuracy is: 97.600000%
+*** PASS: check_digit_classification
+
+### Question q3: 6/6 ###
+
+Question q4
+===========
+*** q4) check_lang_id
+Alphabet: abcdefghijklmnopqrstuvwxyzáäèéêëíïñóöúüąćęłńśźż
+
+epoch 1 iteration 35 validation-accuracy 46.4%
+  tenant     English ( 22.1%)               |en 22%|es 21%|fi 19%|nl 17%|pl 21%
+  agencies   English ( 26.1%)               |en 26%|es 26%|fi 14%|nl 18%|pl 16%
+  pleasures  English ( 24.5%) Pred: Spanish |en 25%|es 27%|fi 15%|nl 19%|pl 15%
+  salgas     Spanish ( 28.7%)               |en 20%|es 29%|fi 21%|nl 13%|pl 17%
+  salvó      Spanish ( 19.0%) Pred: Finnish |en 20%|es 19%|fi 23%|nl 15%|pl 23%
+  intención  Spanish ( 25.1%)               |en 19%|es 25%|fi 21%|nl 17%|pl 17%
+  normaalia  Finnish ( 21.7%) Pred: Spanish |en 15%|es 28%|fi 22%|nl 13%|pl 22%
+  aikaisin   Finnish ( 25.1%)               |en 18%|es 21%|fi 25%|nl 18%|pl 19%
+  rakastin   Finnish ( 24.9%)               |en 17%|es 21%|fi 25%|nl 19%|pl 19%
+  intiem     Dutch   ( 20.1%) Pred: Polish  |en 20%|es 15%|fi 19%|nl 20%|pl 26%
+  pijnlijke  Dutch   ( 17.0%) Pred: Spanish |en 20%|es 25%|fi 18%|nl 17%|pl 20%
+  vernederen Dutch   ( 25.1%)               |en 21%|es 23%|fi 17%|nl 25%|pl 14%
+  waż        Polish  ( 22.7%) Pred: Finnish |en 15%|es 17%|fi 27%|nl 18%|pl 23%
+  pada       Polish  ( 26.5%)               |en 14%|es 20%|fi 24%|nl 15%|pl 27%
+  spust      Polish  ( 22.6%) Pred: Finnish |en 18%|es 18%|fi 23%|nl 17%|pl 23%
+epoch 1 iteration 78 validation-accuracy 43.8%
+  tenant     English ( 22.3%) Pred: Finnish |en 22%|es 14%|fi 27%|nl 14%|pl 24%
+  agencies   English ( 34.1%)               |en 34%|es 25%|fi 11%|nl 15%|pl 14%
+  pleasures  English ( 27.0%)               |en 27%|es 23%|fi 18%|nl 15%|pl 17%
+  salgas     Spanish ( 25.3%) Pred: Finnish |en 17%|es 25%|fi 31%|nl  8%|pl 19%
+  salvó      Spanish ( 17.1%) Pred: Finnish |en 15%|es 17%|fi 31%|nl 10%|pl 27%
+  intención  Spanish ( 18.4%) Pred: Finnish |en 16%|es 18%|fi 31%|nl 13%|pl 21%
+  normaalia  Finnish ( 38.3%)               |en  7%|es 17%|fi 38%|nl  5%|pl 33%
+  aikaisin   Finnish ( 44.4%)               |en  9%|es 10%|fi 44%|nl 10%|pl 27%
+  rakastin   Finnish ( 48.0%)               |en  8%|es 10%|fi 48%|nl 11%|pl 23%
+  intiem     Dutch   ( 16.5%) Pred: Polish  |en 20%|es 10%|fi 21%|nl 17%|pl 33%
+  pijnlijke  Dutch   (  9.9%) Pred: Polish  |en 14%|es 13%|fi 31%|nl 10%|pl 32%
+  vernederen Dutch   ( 37.9%)               |en 21%|es 18%|fi 15%|nl 38%|pl  8%
+  waż        Polish  ( 28.0%) Pred: Finnish |en 12%|es 14%|fi 32%|nl 13%|pl 28%
+  pada       Polish  ( 32.1%)               |en  9%|es 19%|fi 30%|nl 10%|pl 32%
+  spust      Polish  ( 23.3%) Pred: Finnish |en 16%|es 14%|fi 33%|nl 13%|pl 23%
+epoch 1 iteration 117 validation-accuracy 59.0%
+  tenant     English ( 33.2%)               |en 33%|es 12%|fi 13%|nl 30%|pl 12%
+  agencies   English ( 39.2%)               |en 39%|es 31%|fi  2%|nl 22%|pl  5%
+  pleasures  English ( 30.1%) Pred: Spanish |en 30%|es 33%|fi  4%|nl 27%|pl  6%
+  salgas     Spanish ( 37.7%)               |en 21%|es 38%|fi 17%|nl 10%|pl 14%
+  salvó      Spanish ( 19.8%) Pred: Polish  |en 19%|es 20%|fi 23%|nl 13%|pl 26%
+  intención  Spanish ( 31.5%)               |en 20%|es 32%|fi 11%|nl 27%|pl 10%
+  normaalia  Finnish ( 25.2%) Pred: Polish  |en  7%|es 22%|fi 25%|nl  6%|pl 40%
+  aikaisin   Finnish ( 37.2%)               |en 10%|es 11%|fi 37%|nl 15%|pl 27%
+  rakastin   Finnish ( 39.7%)               |en 10%|es  9%|fi 40%|nl 20%|pl 21%
+  intiem     Dutch   ( 28.7%) Pred: English |en 29%|es  8%|fi 11%|nl 29%|pl 24%
+  pijnlijke  Dutch   ( 17.0%) Pred: Polish  |en 19%|es 18%|fi 15%|nl 17%|pl 31%
+  vernederen Dutch   ( 75.1%)               |en  9%|es 13%|fi  2%|nl 75%|pl  1%
+  waż        Polish  ( 31.8%)               |en 11%|es 16%|fi 26%|nl 14%|pl 32%
+  pada       Polish  ( 33.3%)               |en  9%|es 24%|fi 23%|nl 10%|pl 33%
+  spust      Polish  ( 20.3%) Pred: Finnish |en 22%|es 14%|fi 24%|nl 19%|pl 20%
+epoch 1 iteration 153 validation-accuracy 51.0%
+  tenant     English ( 39.8%)               |en 40%|es  8%|fi  4%|nl 36%|pl 11%
+  agencies   English ( 46.5%)               |en 47%|es 21%|fi  0%|nl 27%|pl  5%
+  pleasures  English ( 35.8%)               |en 36%|es 24%|fi  1%|nl 35%|pl  5%
+  salgas     Spanish ( 36.6%)               |en 25%|es 37%|fi  7%|nl 16%|pl 15%
+  salvó      Spanish ( 17.2%) Pred: Polish  |en 19%|es 17%|fi 15%|nl 15%|pl 34%
+  intención  Spanish ( 29.2%) Pred: Dutch   |en 23%|es 29%|fi  2%|nl 38%|pl  8%
+  normaalia  Finnish (  5.7%) Pred: Polish  |en  6%|es 22%|fi  6%|nl 11%|pl 55%
+  aikaisin   Finnish ( 18.1%) Pred: Polish  |en 10%|es  9%|fi 18%|nl 27%|pl 36%
+  rakastin   Finnish ( 16.4%) Pred: Dutch   |en  9%|es  8%|fi 16%|nl 36%|pl 31%
+  intiem     Dutch   ( 33.0%) Pred: English |en 33%|es  5%|fi  3%|nl 33%|pl 25%
+  pijnlijke  Dutch   ( 24.1%) Pred: Polish  |en 16%|es 12%|fi  5%|nl 24%|pl 43%
+  vernederen Dutch   ( 82.1%)               |en  9%|es  8%|fi  0%|nl 82%|pl  1%
+  waż        Polish  ( 37.5%)               |en 10%|es 15%|fi 22%|nl 15%|pl 38%
+  pada       Polish  ( 41.3%)               |en  8%|es 27%|fi 14%|nl 11%|pl 41%
+  spust      Polish  ( 22.1%) Pred: Dutch   |en 26%|es 10%|fi 16%|nl 26%|pl 22%
+0.622
+epoch 2 iteration 4 validation-accuracy 51.4%
+  tenant     English ( 38.2%)               |en 38%|es 13%|fi 22%|nl 21%|pl  5%
+  agencies   English ( 52.0%)               |en 52%|es 31%|fi  3%|nl 13%|pl  1%
+  pleasures  English ( 38.8%)               |en 39%|es 36%|fi  8%|nl 15%|pl  2%
+  salgas     Spanish ( 44.2%)               |en 18%|es 44%|fi 26%|nl  7%|pl  5%
+  salvó      Spanish ( 18.0%) Pred: Finnish |en 14%|es 18%|fi 44%|nl 10%|pl 13%
+  intención  Spanish ( 33.2%) Pred: Finnish |en 15%|es 33%|fi 35%|nl 14%|pl  3%
+  normaalia  Finnish ( 70.5%)               |en  3%|es 15%|fi 70%|nl  4%|pl  7%
+  aikaisin   Finnish ( 73.9%)               |en  5%|es  7%|fi 74%|nl  8%|pl  5%
+  rakastin   Finnish ( 71.3%)               |en  6%|es  8%|fi 71%|nl 10%|pl  5%
+  intiem     Dutch   ( 18.7%) Pred: English |en 36%|es 11%|fi 18%|nl 19%|pl 15%
+  pijnlijke  Dutch   ( 11.7%) Pred: Finnish |en 15%|es 15%|fi 49%|nl 12%|pl 10%
+  vernederen Dutch   ( 56.3%)               |en 18%|es 22%|fi  3%|nl 56%|pl  0%
+  waż        Polish  ( 20.8%) Pred: Finnish |en 10%|es 19%|fi 36%|nl 14%|pl 21%
+  pada       Polish  ( 15.1%) Pred: Finnish |en  7%|es 34%|fi 37%|nl  7%|pl 15%
+  spust      Polish  (  8.9%) Pred: Finnish |en 18%|es 12%|fi 45%|nl 16%|pl  9%
+epoch 2 iteration 40 validation-accuracy 66.0%
+  tenant     English ( 35.3%)               |en 35%|es  9%|fi 13%|nl 32%|pl 10%
+  agencies   English ( 49.9%)               |en 50%|es 29%|fi  1%|nl 17%|pl  4%
+  pleasures  English ( 34.8%) Pred: Spanish |en 35%|es 39%|fi  3%|nl 19%|pl  4%
+  salgas     Spanish ( 47.1%)               |en 20%|es 47%|fi 15%|nl  9%|pl  8%
+  salvó      Spanish ( 17.2%) Pred: Finnish |en 16%|es 17%|fi 32%|nl 12%|pl 23%
+  intención  Spanish ( 36.8%)               |en 15%|es 37%|fi 16%|nl 25%|pl  7%
+  normaalia  Finnish ( 54.7%)               |en  4%|es 19%|fi 55%|nl  7%|pl 17%
+  aikaisin   Finnish ( 64.0%)               |en  6%|es  7%|fi 64%|nl 14%|pl  9%
+  rakastin   Finnish ( 56.0%)               |en  7%|es  7%|fi 56%|nl 21%|pl  9%
+  intiem     Dutch   ( 26.1%) Pred: English |en 33%|es  8%|fi  7%|nl 26%|pl 26%
+  pijnlijke  Dutch   ( 19.3%) Pred: Finnish |en 20%|es 16%|fi 24%|nl 19%|pl 21%
+  vernederen Dutch   ( 71.7%)               |en  9%|es 15%|fi  3%|nl 72%|pl  2%
+  waż        Polish  ( 30.5%) Pred: Finnish |en  8%|es 17%|fi 31%|nl 13%|pl 31%
+  pada       Polish  ( 22.9%) Pred: Spanish |en  5%|es 35%|fi 30%|nl  7%|pl 23%
+  spust      Polish  ( 15.3%) Pred: Finnish |en 22%|es 10%|fi 32%|nl 20%|pl 15%
+epoch 2 iteration 56 validation-accuracy 68.0%
+  tenant     English ( 43.9%)               |en 44%|es  7%|fi 13%|nl 28%|pl  8%
+  agencies   English ( 66.6%)               |en 67%|es 20%|fi  1%|nl 11%|pl  2%
+  pleasures  English ( 46.5%)               |en 46%|es 33%|fi  3%|nl 15%|pl  3%
+  salgas     Spanish ( 47.5%)               |en 19%|es 48%|fi 20%|nl  6%|pl  7%
+  salvó      Spanish ( 16.3%) Pred: Finnish |en 14%|es 16%|fi 45%|nl  8%|pl 17%
+  intención  Spanish ( 44.6%)               |en 22%|es 45%|fi 11%|nl 17%|pl  5%
+  normaalia  Finnish ( 69.3%)               |en  2%|es 13%|fi 69%|nl  3%|pl 13%
+  aikaisin   Finnish ( 83.8%)               |en  3%|es  4%|fi 84%|nl  6%|pl  4%
+  rakastin   Finnish ( 76.0%)               |en  4%|es  5%|fi 76%|nl 11%|pl  4%
+  intiem     Dutch   ( 20.9%) Pred: English |en 47%|es  6%|fi  7%|nl 21%|pl 19%
+  pijnlijke  Dutch   ( 13.8%) Pred: Finnish |en 18%|es  9%|fi 45%|nl 14%|pl 14%
+  vernederen Dutch   ( 83.7%)               |en  8%|es  5%|fi  2%|nl 84%|pl  1%
+  waż        Polish  ( 33.7%)               |en  7%|es 17%|fi 31%|nl 11%|pl 34%
+  pada       Polish  ( 24.6%) Pred: Finnish |en  4%|es 33%|fi 33%|nl  5%|pl 25%
+  spust      Polish  ( 12.1%) Pred: Finnish |en 23%|es  8%|fi 40%|nl 16%|pl 12%
+epoch 2 iteration 80 validation-accuracy 63.0%
+  tenant     English ( 46.5%)               |en 46%|es  9%|fi  9%|nl 26%|pl 10%
+  agencies   English ( 60.2%)               |en 60%|es 23%|fi  1%|nl 14%|pl  2%
+  pleasures  English ( 40.1%)               |en 40%|es 39%|fi  2%|nl 16%|pl  3%
+  salgas     Spanish ( 51.3%)               |en 20%|es 51%|fi 14%|nl  6%|pl  8%
+  salvó      Spanish ( 17.9%) Pred: Finnish |en 15%|es 18%|fi 34%|nl 10%|pl 23%
+  intención  Spanish ( 38.7%)               |en 20%|es 39%|fi 15%|nl 21%|pl  5%
+  normaalia  Finnish ( 64.3%)               |en  2%|es 13%|fi 64%|nl  3%|pl 17%
+  aikaisin   Finnish ( 78.3%)               |en  3%|es  5%|fi 78%|nl  5%|pl  8%
+  rakastin   Finnish ( 67.4%)               |en  6%|es  7%|fi 67%|nl 11%|pl  9%
+  intiem     Dutch   ( 19.1%) Pred: English |en 42%|es  8%|fi  6%|nl 19%|pl 25%
+  pijnlijke  Dutch   ( 13.9%) Pred: Finnish |en 17%|es 12%|fi 35%|nl 14%|pl 22%
+  vernederen Dutch   ( 79.2%)               |en  8%|es 11%|fi  1%|nl 79%|pl  1%
+  waż        Polish  ( 28.3%) Pred: Finnish |en  8%|es 19%|fi 34%|nl 11%|pl 28%
+  pada       Polish  ( 19.9%) Pred: Finnish |en  5%|es 33%|fi 37%|nl  5%|pl 20%
+  spust      Polish  ( 15.6%) Pred: Finnish |en 22%|es  9%|fi 37%|nl 16%|pl 16%
+epoch 2 iteration 104 validation-accuracy 57.8%
+  tenant     English ( 38.3%) Pred: Dutch   |en 38%|es  5%|fi  2%|nl 46%|pl  8%
+  agencies   English ( 50.7%)               |en 51%|es 17%|fi  0%|nl 31%|pl  2%
+  pleasures  English ( 36.9%)               |en 37%|es 29%|fi  0%|nl 32%|pl  2%
+  salgas     Spanish ( 57.8%)               |en 21%|es 58%|fi  2%|nl 10%|pl  9%
+  salvó      Spanish ( 21.9%) Pred: Polish  |en 17%|es 22%|fi 16%|nl 12%|pl 33%
+  intención  Spanish ( 30.6%) Pred: Dutch   |en 15%|es 31%|fi  1%|nl 51%|pl  3%
+  normaalia  Finnish ( 16.7%) Pred: Polish  |en  5%|es 20%|fi 17%|nl 15%|pl 44%
+  aikaisin   Finnish ( 57.3%)               |en  4%|es  5%|fi 57%|nl 17%|pl 17%
+  rakastin   Finnish ( 32.3%) Pred: Dutch   |en  7%|es  5%|fi 32%|nl 37%|pl 19%
+  intiem     Dutch   ( 28.5%) Pred: English |en 39%|es  4%|fi  1%|nl 29%|pl 28%
+  pijnlijke  Dutch   ( 29.3%) Pred: Polish  |en 18%|es  9%|fi  9%|nl 29%|pl 34%
+  vernederen Dutch   ( 90.5%)               |en  4%|es  6%|fi  0%|nl 91%|pl  0%
+  waż        Polish  ( 43.7%)               |en  7%|es 20%|fi 18%|nl 11%|pl 44%
+  pada       Polish  ( 31.4%) Pred: Spanish |en  4%|es 45%|fi 14%|nl  6%|pl 31%
+  spust      Polish  ( 20.6%) Pred: English |en 29%|es  7%|fi 16%|nl 27%|pl 21%
+epoch 2 iteration 131 validation-accuracy 58.8%
+  tenant     English ( 26.6%) Pred: Dutch   |en 27%|es  6%|fi 18%|nl 35%|pl 14%
+  agencies   English ( 60.2%)               |en 60%|es 16%|fi  3%|nl 12%|pl  8%
+  pleasures  English ( 41.9%)               |en 42%|es 25%|fi  6%|nl 14%|pl 14%
+  salgas     Spanish ( 43.4%)               |en 19%|es 43%|fi 11%|nl  8%|pl 19%
+  salvó      Spanish ( 17.0%) Pred: Polish  |en 11%|es 17%|fi 28%|nl  9%|pl 35%
+  intención  Spanish ( 20.5%) Pred: Finnish |en 12%|es 20%|fi 29%|nl 19%|pl 20%
+  normaalia  Finnish ( 39.3%) Pred: Polish  |en  2%|es 12%|fi 39%|nl  5%|pl 42%
+  aikaisin   Finnish ( 63.6%)               |en  3%|es  4%|fi 64%|nl 13%|pl 17%
+  rakastin   Finnish ( 47.2%)               |en  4%|es  6%|fi 47%|nl 23%|pl 20%
+  intiem     Dutch   ( 19.0%) Pred: Polish  |en 27%|es  4%|fi  7%|nl 19%|pl 43%
+  pijnlijke  Dutch   ( 20.8%) Pred: Polish  |en 13%|es  6%|fi 18%|nl 21%|pl 42%
+  vernederen Dutch   ( 46.6%)               |en  8%|es  7%|fi 26%|nl 47%|pl 12%
+  waż        Polish  ( 46.2%)               |en  5%|es 17%|fi 23%|nl  8%|pl 46%
+  pada       Polish  ( 35.0%)               |en  2%|es 27%|fi 32%|nl  4%|pl 35%
+  spust      Polish  ( 20.3%) Pred: Finnish |en 18%|es  6%|fi 35%|nl 20%|pl 20%
+epoch 2 iteration 155 validation-accuracy 65.8%
+  tenant     English ( 27.7%) Pred: Dutch   |en 28%|es  3%|fi 18%|nl 43%|pl  8%
+  agencies   English ( 60.9%)               |en 61%|es 12%|fi  2%|nl 22%|pl  3%
+  pleasures  English ( 43.1%)               |en 43%|es 22%|fi  6%|nl 25%|pl  4%
+  salgas     Spanish ( 36.8%)               |en 22%|es 37%|fi 17%|nl 13%|pl 12%
+  salvó      Spanish ( 12.6%) Pred: Finnish |en 11%|es 13%|fi 39%|nl 11%|pl 26%
+  intención  Spanish ( 21.1%) Pred: Finnish |en 12%|es 21%|fi 38%|nl 22%|pl  7%
+  normaalia  Finnish ( 66.4%)               |en  1%|es  7%|fi 66%|nl  4%|pl 21%
+  aikaisin   Finnish ( 83.5%)               |en  2%|es  1%|fi 84%|nl  9%|pl  5%
+  rakastin   Finnish ( 70.1%)               |en  3%|es  2%|fi 70%|nl 17%|pl  8%
+  intiem     Dutch   ( 25.9%) Pred: Polish  |en 28%|es  3%|fi  8%|nl 26%|pl 35%
+  pijnlijke  Dutch   ( 25.1%) Pred: Finnish |en 15%|es  5%|fi 32%|nl 25%|pl 23%
+  vernederen Dutch   ( 88.5%)               |en  3%|es  2%|fi  5%|nl 89%|pl  1%
+  waż        Polish  ( 48.9%)               |en  5%|es 12%|fi 22%|nl 12%|pl 49%
+  pada       Polish  ( 36.0%)               |en  2%|es 26%|fi 30%|nl  5%|pl 36%
+  spust      Polish  ( 13.8%) Pred: Finnish |en 17%|es  4%|fi 39%|nl 26%|pl 14%
+epoch 2 iteration 165 validation-accuracy 66.4%
+  tenant     English ( 37.0%)               |en 37%|es  4%|fi 22%|nl 35%|pl  2%
+  agencies   English ( 66.5%)               |en 66%|es 19%|fi  0%|nl 14%|pl  0%
+  pleasures  English ( 49.5%)               |en 49%|es 31%|fi  6%|nl 14%|pl  0%
+  salgas     Spanish ( 55.0%)               |en 22%|es 55%|fi 14%|nl  7%|pl  2%
+  salvó      Spanish ( 18.0%) Pred: Finnish |en 14%|es 18%|fi 50%|nl  8%|pl 10%
+  intención  Spanish ( 40.7%)               |en 18%|es 41%|fi 27%|nl 15%|pl  0%
+  normaalia  Finnish ( 88.4%)               |en  1%|es  6%|fi 88%|nl  2%|pl  3%
+  aikaisin   Finnish ( 95.7%)               |en  1%|es  1%|fi 96%|nl  2%|pl  0%
+  rakastin   Finnish ( 89.3%)               |en  2%|es  2%|fi 89%|nl  6%|pl  1%
+  intiem     Dutch   ( 20.5%) Pred: English |en 56%|es  5%|fi 10%|nl 20%|pl  9%
+  pijnlijke  Dutch   ( 13.6%) Pred: Finnish |en 15%|es  5%|fi 62%|nl 14%|pl  4%
+  vernederen Dutch   ( 94.4%)               |en  3%|es  2%|fi  0%|nl 94%|pl  0%
+  waż        Polish  ( 39.3%)               |en  6%|es 19%|fi 25%|nl 11%|pl 39%
+  pada       Polish  ( 20.1%) Pred: Spanish |en  2%|es 45%|fi 29%|nl  4%|pl 20%
+  spust      Polish  (  5.9%) Pred: Finnish |en 22%|es  5%|fi 45%|nl 22%|pl  6%
+0.65
+epoch 3 iteration 1 validation-accuracy 61.4%
+  tenant     English ( 39.7%)               |en 40%|es  4%|fi 12%|nl 35%|pl 10%
+  agencies   English ( 70.3%)               |en 70%|es 20%|fi  0%|nl  5%|pl  5%
+  pleasures  English ( 47.1%)               |en 47%|es 39%|fi  1%|nl  5%|pl  8%
+  salgas     Spanish ( 58.3%)               |en 17%|es 58%|fi  6%|nl  5%|pl 14%
+  salvó      Spanish ( 21.9%) Pred: Polish  |en 11%|es 22%|fi 28%|nl  5%|pl 33%
+  intención  Spanish ( 64.5%)               |en 15%|es 65%|fi  2%|nl  5%|pl 14%
+  normaalia  Finnish (  9.3%) Pred: Polish  |en  1%|es  8%|fi  9%|nl  1%|pl 82%
+  aikaisin   Finnish ( 89.2%)               |en  1%|es  1%|fi 89%|nl  3%|pl  6%
+  rakastin   Finnish ( 66.0%)               |en  3%|es  3%|fi 66%|nl  9%|pl 19%
+  intiem     Dutch   ( 11.6%) Pred: English |en 44%|es  3%|fi  3%|nl 12%|pl 39%
+  pijnlijke  Dutch   (  8.6%) Pred: Polish  |en 10%|es  4%|fi 19%|nl  9%|pl 59%
+  vernederen Dutch   ( 88.6%)               |en  5%|es  3%|fi  0%|nl 89%|pl  3%
+  waż        Polish  ( 58.0%)               |en  4%|es 15%|fi 16%|nl  7%|pl 58%
+  pada       Polish  ( 43.0%)               |en  1%|es 37%|fi 16%|nl  2%|pl 43%
+  spust      Polish  ( 19.0%) Pred: Finnish |en 23%|es  4%|fi 35%|nl 19%|pl 19%
+epoch 3 iteration 21 validation-accuracy 68.8%
+  tenant     English ( 45.7%)               |en 46%|es  5%|fi  7%|nl 39%|pl  3%
+  agencies   English ( 64.9%)               |en 65%|es 31%|fi  0%|nl  4%|pl  0%
+  pleasures  English ( 37.7%) Pred: Spanish |en 38%|es 53%|fi  1%|nl  8%|pl  0%
+  salgas     Spanish ( 74.1%)               |en 15%|es 74%|fi  4%|nl  5%|pl  3%
+  salvó      Spanish ( 32.1%) Pred: Finnish |en 13%|es 32%|fi 34%|nl  7%|pl 14%
+  intención  Spanish ( 80.9%)               |en 11%|es 81%|fi  2%|nl  6%|pl  0%
+  normaalia  Finnish ( 53.7%)               |en  1%|es 26%|fi 54%|nl  2%|pl 17%
+  aikaisin   Finnish ( 84.2%)               |en  2%|es  3%|fi 84%|nl  7%|pl  4%
+  rakastin   Finnish ( 69.1%)               |en  4%|es  5%|fi 69%|nl 15%|pl  7%
+  intiem     Dutch   ( 17.4%) Pred: English |en 59%|es  6%|fi  3%|nl 17%|pl 16%
+  pijnlijke  Dutch   ( 19.6%) Pred: Finnish |en 18%|es 14%|fi 29%|nl 20%|pl 19%
+  vernederen Dutch   ( 80.8%)               |en  5%|es 14%|fi  0%|nl 81%|pl  0%
+  waż        Polish  ( 39.1%)               |en  7%|es 23%|fi 20%|nl 11%|pl 39%
+  pada       Polish  ( 22.0%) Pred: Spanish |en  2%|es 55%|fi 18%|nl  3%|pl 22%
+  spust      Polish  (  8.3%) Pred: English |en 31%|es  7%|fi 27%|nl 26%|pl  8%
+epoch 3 iteration 40 validation-accuracy 70.2%
+  tenant     English ( 39.1%) Pred: Dutch   |en 39%|es  5%|fi 15%|nl 40%|pl  1%
+  agencies   English ( 69.4%)               |en 69%|es 23%|fi  0%|nl  7%|pl  0%
+  pleasures  English ( 46.6%)               |en 47%|es 42%|fi  2%|nl  9%|pl  0%
+  salgas     Spanish ( 67.6%)               |en 18%|es 68%|fi  6%|nl  7%|pl  1%
+  salvó      Spanish ( 25.7%) Pred: Finnish |en 14%|es 26%|fi 45%|nl  8%|pl  7%
+  intención  Spanish ( 58.0%)               |en 22%|es 58%|fi  8%|nl 11%|pl  0%
+  normaalia  Finnish ( 87.8%)               |en  1%|es  8%|fi 88%|nl  2%|pl  2%
+  aikaisin   Finnish ( 92.1%)               |en  1%|es  2%|fi 92%|nl  4%|pl  1%
+  rakastin   Finnish ( 83.0%)               |en  3%|es  3%|fi 83%|nl 10%|pl  1%
+  intiem     Dutch   ( 17.2%) Pred: English |en 67%|es  5%|fi  4%|nl 17%|pl  7%
+  pijnlijke  Dutch   ( 19.8%) Pred: Finnish |en 18%|es  7%|fi 47%|nl 20%|pl  8%
+  vernederen Dutch   ( 92.5%)               |en  4%|es  3%|fi  0%|nl 92%|pl  0%
+  waż        Polish  ( 34.2%)               |en  7%|es 22%|fi 22%|nl 14%|pl 34%
+  pada       Polish  ( 14.8%) Pred: Spanish |en  2%|es 55%|fi 24%|nl  4%|pl 15%
+  spust      Polish  (  4.5%) Pred: Finnish |en 30%|es  6%|fi 35%|nl 25%|pl  5%
+epoch 3 iteration 73 validation-accuracy 54.6%
+  tenant     English ( 27.3%) Pred: Dutch   |en 27%|es  4%|fi 23%|nl 31%|pl 15%
+  agencies   English ( 49.7%)               |en 50%|es 14%|fi  7%|nl 20%|pl  9%
+  pleasures  English ( 41.1%)               |en 41%|es 16%|fi 11%|nl 21%|pl 11%
+  salgas     Spanish ( 25.0%) Pred: English |en 30%|es 25%|fi 16%|nl 15%|pl 15%
+  salvó      Spanish ( 11.0%) Pred: Finnish |en 14%|es 11%|fi 33%|nl 13%|pl 29%
+  intención  Spanish (  9.2%) Pred: Finnish |en 15%|es  9%|fi 40%|nl 22%|pl 13%
+  normaalia  Finnish ( 56.4%)               |en  3%|es  9%|fi 56%|nl  5%|pl 26%
+  aikaisin   Finnish ( 60.2%)               |en  7%|es  4%|fi 60%|nl 16%|pl 12%
+  rakastin   Finnish ( 50.1%)               |en 10%|es  5%|fi 50%|nl 21%|pl 14%
+  intiem     Dutch   ( 21.7%) Pred: Polish  |en 21%|es  5%|fi 13%|nl 22%|pl 39%
+  pijnlijke  Dutch   ( 23.6%) Pred: Polish  |en 19%|es  7%|fi 22%|nl 24%|pl 30%
+  vernederen Dutch   ( 38.6%)               |en 14%|es  4%|fi 30%|nl 39%|pl 14%
+  waż        Polish  ( 33.1%)               |en 10%|es 10%|fi 32%|nl 15%|pl 33%
+  pada       Polish  ( 25.1%) Pred: Finnish |en  5%|es 15%|fi 49%|nl  6%|pl 25%
+  spust      Polish  ( 15.7%) Pred: Finnish |en 19%|es  6%|fi 40%|nl 19%|pl 16%
+epoch 3 iteration 100 validation-accuracy 63.2%
+  tenant     English ( 42.0%)               |en 42%|es  5%|fi 15%|nl 29%|pl  9%
+  agencies   English ( 72.9%)               |en 73%|es 16%|fi  1%|nl  9%|pl  2%
+  pleasures  English ( 49.5%)               |en 50%|es 37%|fi  4%|nl  7%|pl  2%
+  salgas     Spanish ( 61.8%)               |en 19%|es 62%|fi  9%|nl  5%|pl  5%
+  salvó      Spanish ( 28.9%) Pred: Finnish |en 12%|es 29%|fi 33%|nl  8%|pl 18%
+  intención  Spanish ( 37.9%)               |en 22%|es 38%|fi 25%|nl 10%|pl  4%
+  normaalia  Finnish ( 70.2%)               |en  1%|es 21%|fi 70%|nl  1%|pl  7%
+  aikaisin   Finnish ( 85.4%)               |en  2%|es  8%|fi 85%|nl  3%|pl  2%
+  rakastin   Finnish ( 73.7%)               |en  4%|es  9%|fi 74%|nl  8%|pl  4%
+  intiem     Dutch   ( 15.2%) Pred: English |en 45%|es  8%|fi  5%|nl 15%|pl 27%
+  pijnlijke  Dutch   ( 16.6%) Pred: Finnish |en 20%|es 16%|fi 31%|nl 17%|pl 16%
+  vernederen Dutch   ( 59.5%)               |en 11%|es  5%|fi 19%|nl 59%|pl  6%
+  waż        Polish  ( 36.6%)               |en  8%|es 16%|fi 26%|nl 14%|pl 37%
+  pada       Polish  ( 20.1%) Pred: Spanish |en  3%|es 41%|fi 32%|nl  4%|pl 20%
+  spust      Polish  (  9.7%) Pred: Finnish |en 26%|es 11%|fi 36%|nl 18%|pl 10%
+epoch 3 iteration 128 validation-accuracy 69.2%
+  tenant     English ( 35.8%) Pred: Dutch   |en 36%|es  4%|fi  9%|nl 45%|pl  7%
+  agencies   English ( 65.8%)               |en 66%|es 17%|fi  1%|nl 15%|pl  2%
+  pleasures  English ( 54.4%)               |en 54%|es 30%|fi  1%|nl 12%|pl  2%
+  salgas     Spanish ( 66.8%)               |en 17%|es 67%|fi  4%|nl  7%|pl  4%
+  salvó      Spanish ( 30.9%)               |en 12%|es 31%|fi 24%|nl  9%|pl 24%
+  intención  Spanish ( 34.1%)               |en 17%|es 34%|fi 15%|nl 28%|pl  6%
+  normaalia  Finnish ( 62.6%)               |en  1%|es 14%|fi 63%|nl  3%|pl 19%
+  aikaisin   Finnish ( 80.1%)               |en  2%|es  3%|fi 80%|nl 10%|pl  4%
+  rakastin   Finnish ( 64.2%)               |en  4%|es  4%|fi 64%|nl 23%|pl  5%
+  intiem     Dutch   ( 24.6%) Pred: Polish  |en 33%|es  5%|fi  2%|nl 25%|pl 35%
+  pijnlijke  Dutch   ( 34.5%)               |en 19%|es  9%|fi 12%|nl 34%|pl 25%
+  vernederen Dutch   ( 75.4%)               |en  8%|es  6%|fi  7%|nl 75%|pl  4%
+  waż        Polish  ( 45.2%)               |en  6%|es 16%|fi 21%|nl 13%|pl 45%
+  pada       Polish  ( 23.6%) Pred: Spanish |en  2%|es 47%|fi 23%|nl  4%|pl 24%
+  spust      Polish  ( 11.2%) Pred: Finnish |en 28%|es  8%|fi 29%|nl 24%|pl 11%
+epoch 3 iteration 159 validation-accuracy 72.4%
+  tenant     English ( 35.3%) Pred: Dutch   |en 35%|es  2%|fi 11%|nl 44%|pl  7%
+  agencies   English ( 78.2%)               |en 78%|es 14%|fi  0%|nl  7%|pl  1%
+  pleasures  English ( 65.5%)               |en 66%|es 24%|fi  1%|nl  8%|pl  2%
+  salgas     Spanish ( 64.7%)               |en 18%|es 65%|fi  6%|nl  6%|pl  5%
+  salvó      Spanish ( 23.7%) Pred: Finnish |en 11%|es 24%|fi 29%|nl  7%|pl 29%
+  intención  Spanish ( 48.9%)               |en 25%|es 49%|fi  7%|nl 15%|pl  4%
+  normaalia  Finnish ( 63.5%)               |en  1%|es  7%|fi 64%|nl  2%|pl 27%
+  aikaisin   Finnish ( 91.7%)               |en  1%|es  1%|fi 92%|nl  4%|pl  3%
+  rakastin   Finnish ( 86.2%)               |en  1%|es  1%|fi 86%|nl  8%|pl  3%
+  intiem     Dutch   ( 15.7%) Pred: Polish  |en 34%|es  3%|fi  2%|nl 16%|pl 45%
+  pijnlijke  Dutch   ( 26.8%) Pred: Polish  |en 17%|es  4%|fi 21%|nl 27%|pl 32%
+  vernederen Dutch   ( 85.5%)               |en  8%|es  4%|fi  1%|nl 85%|pl  1%
+  waż        Polish  ( 54.3%)               |en  4%|es 11%|fi 21%|nl 10%|pl 54%
+  pada       Polish  ( 38.5%)               |en  2%|es 34%|fi 23%|nl  3%|pl 39%
+  spust      Polish  ( 10.6%) Pred: Finnish |en 26%|es  4%|fi 40%|nl 20%|pl 11%
+0.71
+epoch 4 iteration 1 validation-accuracy 72.8%
+  tenant     English ( 29.5%) Pred: Dutch   |en 29%|es  3%|fi 15%|nl 47%|pl  6%
+  agencies   English ( 70.7%)               |en 71%|es 18%|fi  0%|nl 10%|pl  1%
+  pleasures  English ( 56.1%)               |en 56%|es 31%|fi  2%|nl  9%|pl  2%
+  salgas     Spanish ( 65.5%)               |en 15%|es 66%|fi  8%|nl  6%|pl  5%
+  salvó      Spanish ( 21.4%) Pred: Finnish |en  8%|es 21%|fi 36%|nl  6%|pl 29%
+  intención  Spanish ( 47.5%)               |en 17%|es 47%|fi 13%|nl 18%|pl  5%
+  normaalia  Finnish ( 78.8%)               |en  0%|es  3%|fi 79%|nl  1%|pl 16%
+  aikaisin   Finnish ( 96.3%)               |en  0%|es  0%|fi 96%|nl  2%|pl  2%
+  rakastin   Finnish ( 91.5%)               |en  1%|es  1%|fi 91%|nl  5%|pl  2%
+  intiem     Dutch   ( 15.1%) Pred: Polish  |en 34%|es  4%|fi  3%|nl 15%|pl 44%
+  pijnlijke  Dutch   ( 21.7%) Pred: Polish  |en 12%|es  3%|fi 30%|nl 22%|pl 33%
+  vernederen Dutch   ( 93.8%)               |en  3%|es  2%|fi  1%|nl 94%|pl  1%
+  waż        Polish  ( 55.9%)               |en  3%|es 11%|fi 20%|nl  9%|pl 56%
+  pada       Polish  ( 37.4%) Pred: Spanish |en  1%|es 38%|fi 21%|nl  3%|pl 37%
+  spust      Polish  (  9.9%) Pred: Finnish |en 24%|es  3%|fi 43%|nl 20%|pl 10%
+epoch 4 iteration 27 validation-accuracy 73.8%
+  tenant     English ( 35.4%) Pred: Dutch   |en 35%|es  3%|fi  6%|nl 53%|pl  4%
+  agencies   English ( 70.9%)               |en 71%|es 17%|fi  0%|nl 11%|pl  1%
+  pleasures  English ( 51.9%)               |en 52%|es 35%|fi  1%|nl 10%|pl  2%
+  salgas     Spanish ( 70.6%)               |en 17%|es 71%|fi  3%|nl  6%|pl  3%
+  salvó      Spanish ( 27.7%) Pred: Polish  |en 12%|es 28%|fi 22%|nl  8%|pl 31%
+  intención  Spanish ( 54.4%)               |en 16%|es 54%|fi  6%|nl 20%|pl  4%
+  normaalia  Finnish ( 55.1%)               |en  1%|es  9%|fi 55%|nl  2%|pl 33%
+  aikaisin   Finnish ( 89.3%)               |en  1%|es  2%|fi 89%|nl  5%|pl  3%
+  rakastin   Finnish ( 71.4%)               |en  3%|es  3%|fi 71%|nl 18%|pl  4%
+  intiem     Dutch   ( 19.1%) Pred: English |en 44%|es  4%|fi  1%|nl 19%|pl 32%
+  pijnlijke  Dutch   ( 30.7%) Pred: Polish  |en 12%|es  3%|fi  8%|nl 31%|pl 45%
+  vernederen Dutch   ( 95.2%)               |en  2%|es  1%|fi  1%|nl 95%|pl  1%
+  waż        Polish  ( 53.1%)               |en  5%|es 16%|fi 16%|nl 11%|pl 53%
+  pada       Polish  ( 37.7%) Pred: Spanish |en  1%|es 43%|fi 15%|nl  3%|pl 38%
+  spust      Polish  (  9.2%) Pred: English |en 35%|es  4%|fi 29%|nl 23%|pl  9%
+epoch 4 iteration 36 validation-accuracy 68.0%
+  tenant     English ( 36.7%) Pred: Dutch   |en 37%|es  2%|fi  2%|nl 57%|pl  3%
+  agencies   English ( 73.0%)               |en 73%|es 13%|fi  0%|nl 14%|pl  0%
+  pleasures  English ( 55.0%)               |en 55%|es 26%|fi  0%|nl 18%|pl  1%
+  salgas     Spanish ( 61.0%)               |en 24%|es 61%|fi  2%|nl 11%|pl  3%
+  salvó      Spanish ( 24.3%) Pred: Polish  |en 16%|es 24%|fi 13%|nl 11%|pl 36%
+  intención  Spanish ( 42.0%)               |en 20%|es 42%|fi  2%|nl 34%|pl  2%
+  normaalia  Finnish ( 29.4%) Pred: Polish  |en  1%|es 12%|fi 29%|nl  5%|pl 53%
+  aikaisin   Finnish ( 79.5%)               |en  2%|es  2%|fi 80%|nl 11%|pl  5%
+  rakastin   Finnish ( 49.0%)               |en  5%|es  3%|fi 49%|nl 36%|pl  7%
+  intiem     Dutch   ( 26.8%) Pred: English |en 42%|es  3%|fi  1%|nl 27%|pl 28%
+  pijnlijke  Dutch   ( 45.3%)               |en 14%|es  3%|fi  2%|nl 45%|pl 36%
+  vernederen Dutch   ( 97.0%)               |en  2%|es  1%|fi  0%|nl 97%|pl  0%
+  waż        Polish  ( 57.5%)               |en  5%|es 13%|fi 13%|nl 12%|pl 57%
+  pada       Polish  ( 40.5%) Pred: Spanish |en  2%|es 42%|fi 12%|nl  4%|pl 40%
+  spust      Polish  (  8.8%) Pred: English |en 42%|es  3%|fi 17%|nl 30%|pl  9%
+epoch 4 iteration 60 validation-accuracy 75.6%
+  tenant     English ( 38.8%) Pred: Dutch   |en 39%|es  3%|fi 13%|nl 42%|pl  3%
+  agencies   English ( 65.1%)               |en 65%|es 24%|fi  0%|nl 10%|pl  1%
+  pleasures  English ( 46.3%)               |en 46%|es 40%|fi  1%|nl 12%|pl  1%
+  salgas     Spanish ( 68.9%)               |en 18%|es 69%|fi  4%|nl  7%|pl  3%
+  salvó      Spanish ( 24.9%) Pred: Finnish |en 14%|es 25%|fi 32%|nl 10%|pl 20%
+  intención  Spanish ( 62.6%)               |en 12%|es 63%|fi 12%|nl 12%|pl  2%
+  normaalia  Finnish ( 72.7%)               |en  1%|es 11%|fi 73%|nl  3%|pl 11%
+  aikaisin   Finnish ( 91.1%)               |en  1%|es  1%|fi 91%|nl  5%|pl  1%
+  rakastin   Finnish ( 72.5%)               |en  5%|es  3%|fi 72%|nl 18%|pl  2%
+  intiem     Dutch   ( 20.0%) Pred: English |en 45%|es  5%|fi  3%|nl 20%|pl 27%
+  pijnlijke  Dutch   ( 39.9%)               |en 23%|es  6%|fi 16%|nl 40%|pl 16%
+  vernederen Dutch   ( 75.0%)               |en  9%|es 10%|fi  4%|nl 75%|pl  2%
+  waż        Polish  ( 45.8%)               |en  6%|es 18%|fi 20%|nl 11%|pl 46%
+  pada       Polish  ( 28.7%) Pred: Spanish |en  2%|es 47%|fi 20%|nl  2%|pl 29%
+  spust      Polish  (  6.8%) Pred: Finnish |en 31%|es  3%|fi 31%|nl 28%|pl  7%
+epoch 4 iteration 81 validation-accuracy 76.4%
+  tenant     English ( 38.2%) Pred: Dutch   |en 38%|es  2%|fi 10%|nl 48%|pl  2%
+  agencies   English ( 71.5%)               |en 71%|es 21%|fi  0%|nl  7%|pl  0%
+  pleasures  English ( 51.0%)               |en 51%|es 40%|fi  1%|nl  8%|pl  0%
+  salgas     Spanish ( 71.5%)               |en 18%|es 72%|fi  3%|nl  6%|pl  2%
+  salvó      Spanish ( 30.5%)               |en 15%|es 31%|fi 25%|nl  9%|pl 20%
+  intención  Spanish ( 75.6%)               |en 12%|es 76%|fi  6%|nl  6%|pl  1%
+  normaalia  Finnish ( 76.7%)               |en  1%|es 12%|fi 77%|nl  3%|pl  8%
+  aikaisin   Finnish ( 93.2%)               |en  1%|es  1%|fi 93%|nl  4%|pl  1%
+  rakastin   Finnish ( 77.1%)               |en  4%|es  3%|fi 77%|nl 15%|pl  1%
+  intiem     Dutch   ( 19.0%) Pred: English |en 53%|es  4%|fi  2%|nl 19%|pl 22%
+  pijnlijke  Dutch   ( 54.7%)               |en 23%|es  4%|fi  9%|nl 55%|pl 10%
+  vernederen Dutch   ( 88.3%)               |en  5%|es  4%|fi  2%|nl 88%|pl  0%
+  waż        Polish  ( 54.4%)               |en  5%|es 16%|fi 15%|nl 10%|pl 54%
+  pada       Polish  ( 36.0%) Pred: Spanish |en  1%|es 46%|fi 15%|nl  2%|pl 36%
+  spust      Polish  (  6.0%) Pred: English |en 38%|es  3%|fi 24%|nl 29%|pl  6%
+epoch 4 iteration 133 validation-accuracy 58.4%
+  tenant     English ( 29.3%) Pred: Dutch   |en 29%|es  2%|fi  8%|nl 56%|pl  5%
+  agencies   English ( 42.5%) Pred: Dutch   |en 43%|es  6%|fi  1%|nl 48%|pl  1%
+  pleasures  English ( 39.3%)               |en 39%|es 20%|fi  2%|nl 37%|pl  2%
+  salgas     Spanish ( 42.6%)               |en 22%|es 43%|fi  9%|nl 18%|pl  8%
+  salvó      Spanish ( 19.2%) Pred: Polish  |en  8%|es 19%|fi 26%|nl  9%|pl 38%
+  intención  Spanish ( 23.9%) Pred: Dutch   |en 10%|es 24%|fi 25%|nl 34%|pl  8%
+  normaalia  Finnish ( 37.1%) Pred: Polish  |en  1%|es  7%|fi 37%|nl  3%|pl 52%
+  aikaisin   Finnish ( 69.7%)               |en  3%|es  3%|fi 70%|nl 14%|pl 11%
+  rakastin   Finnish ( 54.2%)               |en  5%|es  3%|fi 54%|nl 28%|pl 11%
+  intiem     Dutch   ( 32.5%) Pred: Polish  |en 16%|es  2%|fi  4%|nl 33%|pl 46%
+  pijnlijke  Dutch   ( 43.4%) Pred: Polish  |en  6%|es  1%|fi  5%|nl 43%|pl 45%
+  vernederen Dutch   ( 97.6%)               |en  1%|es  0%|fi  1%|nl 98%|pl  0%
+  waż        Polish  ( 53.3%)               |en  4%|es 14%|fi 19%|nl  9%|pl 53%
+  pada       Polish  ( 36.7%)               |en  1%|es 31%|fi 28%|nl  3%|pl 37%
+  spust      Polish  (  9.9%) Pred: Finnish |en 28%|es  4%|fi 29%|nl 29%|pl 10%
+0.764
+epoch 5 iteration 6 validation-accuracy 73.8%
+  tenant     English ( 39.4%) Pred: Dutch   |en 39%|es  3%|fi  9%|nl 48%|pl  1%
+  agencies   English ( 73.8%)               |en 74%|es 16%|fi  0%|nl 10%|pl  0%
+  pleasures  English ( 60.2%)               |en 60%|es 31%|fi  0%|nl  8%|pl  0%
+  salgas     Spanish ( 64.5%)               |en 24%|es 64%|fi  3%|nl  8%|pl  1%
+  salvó      Spanish ( 45.9%)               |en 14%|es 46%|fi 22%|nl  7%|pl 13%
+  intención  Spanish ( 78.3%)               |en 13%|es 78%|fi  2%|nl  6%|pl  0%
+  normaalia  Finnish ( 77.3%)               |en  1%|es 10%|fi 77%|nl  5%|pl  7%
+  aikaisin   Finnish ( 92.3%)               |en  1%|es  2%|fi 92%|nl  5%|pl  0%
+  rakastin   Finnish ( 76.4%)               |en  3%|es  2%|fi 76%|nl 18%|pl  0%
+  intiem     Dutch   ( 26.5%) Pred: English |en 58%|es  3%|fi  2%|nl 26%|pl 11%
+  pijnlijke  Dutch   ( 65.9%)               |en 17%|es  2%|fi  7%|nl 66%|pl  7%
+  vernederen Dutch   ( 96.1%)               |en  2%|es  1%|fi  0%|nl 96%|pl  0%
+  waż        Polish  ( 47.7%)               |en  5%|es 21%|fi 17%|nl  9%|pl 48%
+  pada       Polish  ( 18.6%) Pred: Spanish |en  1%|es 58%|fi 21%|nl  2%|pl 19%
+  spust      Polish  (  2.3%) Pred: English |en 41%|es  4%|fi 28%|nl 24%|pl  2%
+epoch 5 iteration 59 validation-accuracy 74.2%
+  tenant     English ( 33.6%) Pred: Dutch   |en 34%|es  4%|fi 14%|nl 41%|pl  7%
+  agencies   English ( 42.1%)               |en 42%|es 36%|fi  1%|nl 20%|pl  1%
+  pleasures  English ( 36.4%) Pred: Spanish |en 36%|es 46%|fi  1%|nl 16%|pl  1%
+  salgas     Spanish ( 76.0%)               |en 11%|es 76%|fi  4%|nl  6%|pl  2%
+  salvó      Spanish ( 39.3%)               |en 10%|es 39%|fi 23%|nl  6%|pl 21%
+  intención  Spanish ( 76.7%)               |en  5%|es 77%|fi  9%|nl  7%|pl  2%
+  normaalia  Finnish ( 67.5%)               |en  1%|es 14%|fi 67%|nl  3%|pl 15%
+  aikaisin   Finnish ( 89.1%)               |en  1%|es  3%|fi 89%|nl  4%|pl  2%
+  rakastin   Finnish ( 74.6%)               |en  3%|es  5%|fi 75%|nl 14%|pl  3%
+  intiem     Dutch   ( 21.8%) Pred: Polish  |en 19%|es  5%|fi  3%|nl 22%|pl 50%
+  pijnlijke  Dutch   ( 44.1%)               |en 16%|es  6%|fi 11%|nl 44%|pl 23%
+  vernederen Dutch   ( 82.8%)               |en  4%|es 11%|fi  2%|nl 83%|pl  0%
+  waż        Polish  ( 45.6%)               |en  6%|es 22%|fi 17%|nl 10%|pl 46%
+  pada       Polish  ( 18.5%) Pred: Spanish |en  1%|es 58%|fi 21%|nl  1%|pl 18%
+  spust      Polish  (  8.0%) Pred: Finnish |en 29%|es  5%|fi 30%|nl 27%|pl  8%
+epoch 5 iteration 100 validation-accuracy 78.4%
+  tenant     English ( 37.7%) Pred: Dutch   |en 38%|es  4%|fi 18%|nl 38%|pl  2%
+  agencies   English ( 65.8%)               |en 66%|es 29%|fi  0%|nl  5%|pl  0%
+  pleasures  English ( 57.6%)               |en 58%|es 36%|fi  0%|nl  5%|pl  0%
+  salgas     Spanish ( 75.1%)               |en 14%|es 75%|fi  5%|nl  4%|pl  2%
+  salvó      Spanish ( 41.5%)               |en 12%|es 41%|fi 25%|nl  4%|pl 18%
+  intención  Spanish ( 90.2%)               |en  6%|es 90%|fi  1%|nl  2%|pl  0%
+  normaalia  Finnish ( 86.1%)               |en  0%|es  5%|fi 86%|nl  2%|pl  7%
+  aikaisin   Finnish ( 93.2%)               |en  1%|es  1%|fi 93%|nl  4%|pl  1%
+  rakastin   Finnish ( 81.2%)               |en  2%|es  2%|fi 81%|nl 13%|pl  1%
+  intiem     Dutch   ( 18.5%) Pred: English |en 47%|es  4%|fi  2%|nl 19%|pl 29%
+  pijnlijke  Dutch   ( 56.4%)               |en 12%|es  2%|fi  8%|nl 56%|pl 21%
+  vernederen Dutch   ( 94.9%)               |en  2%|es  2%|fi  1%|nl 95%|pl  0%
+  waż        Polish  ( 64.8%)               |en  3%|es 14%|fi 12%|nl  6%|pl 65%
+  pada       Polish  ( 25.1%) Pred: Spanish |en  1%|es 56%|fi 18%|nl  1%|pl 25%
+  spust      Polish  (  4.3%) Pred: English |en 41%|es  4%|fi 29%|nl 22%|pl  4%
+epoch 5 iteration 139 validation-accuracy 78.0%
+  tenant     English ( 35.5%) Pred: Dutch   |en 36%|es  4%|fi 21%|nl 38%|pl  2%
+  agencies   English ( 62.5%)               |en 63%|es 24%|fi  0%|nl 13%|pl  0%
+  pleasures  English ( 52.2%)               |en 52%|es 37%|fi  1%|nl  9%|pl  0%
+  salgas     Spanish ( 78.1%)               |en 12%|es 78%|fi  5%|nl  3%|pl  1%
+  salvó      Spanish ( 50.5%)               |en 10%|es 50%|fi 23%|nl  3%|pl 13%
+  intención  Spanish ( 87.6%)               |en  7%|es 88%|fi  2%|nl  3%|pl  0%
+  normaalia  Finnish ( 84.5%)               |en  0%|es  8%|fi 85%|nl  1%|pl  6%
+  aikaisin   Finnish ( 97.3%)               |en  0%|es  1%|fi 97%|nl  1%|pl  0%
+  rakastin   Finnish ( 91.5%)               |en  2%|es  2%|fi 92%|nl  5%|pl  1%
+  intiem     Dutch   ( 17.9%) Pred: English |en 48%|es  6%|fi  4%|nl 18%|pl 24%
+  pijnlijke  Dutch   ( 40.6%)               |en 19%|es  8%|fi  9%|nl 41%|pl 24%
+  vernederen Dutch   ( 94.0%)               |en  1%|es  4%|fi  0%|nl 94%|pl  0%
+  waż        Polish  ( 62.8%)               |en  3%|es 17%|fi 11%|nl  6%|pl 63%
+  pada       Polish  ( 16.8%) Pred: Spanish |en  1%|es 67%|fi 15%|nl  1%|pl 17%
+  spust      Polish  (  3.7%) Pred: English |en 44%|es  4%|fi 28%|nl 20%|pl  4%
+0.782
+epoch 6 iteration 13 validation-accuracy 78.2%
+  tenant     English ( 41.6%) Pred: Dutch   |en 42%|es  3%|fi  8%|nl 46%|pl  2%
+  agencies   English ( 56.1%)               |en 56%|es 38%|fi  0%|nl  6%|pl  0%
+  pleasures  English ( 46.3%) Pred: Spanish |en 46%|es 49%|fi  0%|nl  4%|pl  0%
+  salgas     Spanish ( 82.2%)               |en 11%|es 82%|fi  2%|nl  4%|pl  1%
+  salvó      Spanish ( 62.8%)               |en  9%|es 63%|fi 13%|nl  3%|pl 12%
+  intención  Spanish ( 93.4%)               |en  5%|es 93%|fi  0%|nl  1%|pl  0%
+  normaalia  Finnish ( 80.6%)               |en  0%|es  9%|fi 81%|nl  2%|pl  9%
+  aikaisin   Finnish ( 97.2%)               |en  0%|es  1%|fi 97%|nl  2%|pl  0%
+  rakastin   Finnish ( 70.7%)               |en  4%|es  3%|fi 71%|nl 21%|pl  1%
+  intiem     Dutch   ( 19.3%) Pred: English |en 38%|es  6%|fi  2%|nl 19%|pl 34%
+  pijnlijke  Dutch   ( 46.2%)               |en 10%|es  2%|fi  3%|nl 46%|pl 39%
+  vernederen Dutch   ( 93.3%)               |en  2%|es  4%|fi  0%|nl 93%|pl  0%
+  waż        Polish  ( 60.5%)               |en  4%|es 17%|fi  7%|nl 11%|pl 61%
+  pada       Polish  ( 12.3%) Pred: Spanish |en  0%|es 77%|fi 10%|nl  1%|pl 12%
+  spust      Polish  (  3.2%) Pred: English |en 49%|es  3%|fi 18%|nl 26%|pl  3%
+epoch 6 iteration 68 validation-accuracy 73.6%
+  tenant     English ( 33.5%) Pred: Dutch   |en 34%|es  3%|fi 12%|nl 44%|pl  7%
+  agencies   English ( 60.6%)               |en 61%|es 33%|fi  0%|nl  6%|pl  0%
+  pleasures  English ( 43.8%) Pred: Spanish |en 44%|es 51%|fi  1%|nl  4%|pl  1%
+  salgas     Spanish ( 76.1%)               |en 13%|es 76%|fi  4%|nl  4%|pl  3%
+  salvó      Spanish ( 37.9%)               |en 11%|es 38%|fi 25%|nl  4%|pl 23%
+  intención  Spanish ( 90.7%)               |en  7%|es 91%|fi  1%|nl  1%|pl  0%
+  normaalia  Finnish ( 60.8%)               |en  1%|es 13%|fi 61%|nl  3%|pl 23%
+  aikaisin   Finnish ( 86.7%)               |en  2%|es  3%|fi 87%|nl  5%|pl  4%
+  rakastin   Finnish ( 64.5%)               |en  6%|es  6%|fi 64%|nl 19%|pl  5%
+  intiem     Dutch   ( 11.7%) Pred: Polish  |en 22%|es  3%|fi  2%|nl 12%|pl 62%
+  pijnlijke  Dutch   ( 47.8%)               |en 17%|es  5%|fi 10%|nl 48%|pl 21%
+  vernederen Dutch   ( 80.3%)               |en  4%|es 11%|fi  4%|nl 80%|pl  0%
+  waż        Polish  ( 41.7%)               |en  6%|es 15%|fi 25%|nl 12%|pl 42%
+  pada       Polish  ( 31.3%) Pred: Spanish |en  1%|es 38%|fi 29%|nl  1%|pl 31%
+  spust      Polish  (  8.4%) Pred: English |en 37%|es  2%|fi 23%|nl 29%|pl  8%
+epoch 6 iteration 117 validation-accuracy 79.0%
+  tenant     English ( 32.4%) Pred: Dutch   |en 32%|es  2%|fi  9%|nl 54%|pl  3%
+  agencies   English ( 67.7%)               |en 68%|es 21%|fi  0%|nl 11%|pl  0%
+  pleasures  English ( 46.2%) Pred: Spanish |en 46%|es 50%|fi  0%|nl  3%|pl  1%
+  salgas     Spanish ( 78.7%)               |en 13%|es 79%|fi  2%|nl  5%|pl  1%
+  salvó      Spanish ( 42.6%)               |en 10%|es 43%|fi 25%|nl  4%|pl 18%
+  intención  Spanish ( 94.6%)               |en  4%|es 95%|fi  0%|nl  1%|pl  0%
+  normaalia  Finnish ( 81.7%)               |en  0%|es  6%|fi 82%|nl  1%|pl 11%
+  aikaisin   Finnish ( 97.5%)               |en  0%|es  1%|fi 98%|nl  1%|pl  1%
+  rakastin   Finnish ( 83.8%)               |en  2%|es  3%|fi 84%|nl  9%|pl  2%
+  intiem     Dutch   ( 13.8%) Pred: Polish  |en 27%|es  4%|fi  1%|nl 14%|pl 55%
+  pijnlijke  Dutch   ( 62.4%)               |en 11%|es  2%|fi  3%|nl 62%|pl 21%
+  vernederen Dutch   ( 98.6%)               |en  1%|es  1%|fi  0%|nl 99%|pl  0%
+  waż        Polish  ( 61.0%)               |en  4%|es 13%|fi 12%|nl  9%|pl 61%
+  pada       Polish  ( 24.2%) Pred: Spanish |en  1%|es 50%|fi 25%|nl  1%|pl 24%
+  spust      Polish  (  5.9%) Pred: English |en 38%|es  3%|fi 28%|nl 26%|pl  6%
+epoch 6 iteration 169 validation-accuracy 79.6%
+  tenant     English ( 36.2%) Pred: Dutch   |en 36%|es  2%|fi 15%|nl 45%|pl  2%
+  agencies   English ( 78.8%)               |en 79%|es 18%|fi  0%|nl  3%|pl  0%
+  pleasures  English ( 49.2%)               |en 49%|es 47%|fi  0%|nl  3%|pl  0%
+  salgas     Spanish ( 70.1%)               |en 23%|es 70%|fi  2%|nl  4%|pl  1%
+  salvó      Spanish ( 47.4%)               |en 12%|es 47%|fi 24%|nl  4%|pl 13%
+  intención  Spanish ( 91.5%)               |en  7%|es 91%|fi  0%|nl  1%|pl  0%
+  normaalia  Finnish ( 93.1%)               |en  0%|es  3%|fi 93%|nl  1%|pl  2%
+  aikaisin   Finnish ( 98.7%)               |en  0%|es  0%|fi 99%|nl  1%|pl  0%
+  rakastin   Finnish ( 89.1%)               |en  2%|es  2%|fi 89%|nl  7%|pl  0%
+  intiem     Dutch   ( 15.0%) Pred: English |en 52%|es  5%|fi  1%|nl 15%|pl 27%
+  pijnlijke  Dutch   ( 75.7%)               |en 12%|es  1%|fi  4%|nl 76%|pl  7%
+  vernederen Dutch   ( 97.8%)               |en  1%|es  1%|fi  0%|nl 98%|pl  0%
+  waż        Polish  ( 60.9%)               |en  5%|es 15%|fi  8%|nl 11%|pl 61%
+  pada       Polish  ( 13.6%) Pred: Spanish |en  0%|es 63%|fi 22%|nl  1%|pl 14%
+  spust      Polish  (  3.7%) Pred: English |en 54%|es  3%|fi 17%|nl 23%|pl  4%
+0.786
+epoch 7 iteration 39 validation-accuracy 79.4%
+  tenant     English ( 22.7%) Pred: Dutch   |en 23%|es  1%|fi 33%|nl 41%|pl  2%
+  agencies   English ( 65.7%)               |en 66%|es 23%|fi  0%|nl 11%|pl  0%
+  pleasures  English ( 37.3%) Pred: Spanish |en 37%|es 53%|fi  3%|nl  5%|pl  1%
+  salgas     Spanish ( 64.1%)               |en 20%|es 64%|fi  7%|nl  7%|pl  2%
+  salvó      Spanish ( 37.4%)               |en  8%|es 37%|fi 33%|nl  3%|pl 19%
+  intención  Spanish ( 90.3%)               |en  7%|es 90%|fi  1%|nl  1%|pl  1%
+  normaalia  Finnish ( 95.5%)               |en  0%|es  1%|fi 96%|nl  0%|pl  3%
+  aikaisin   Finnish ( 99.2%)               |en  0%|es  0%|fi 99%|nl  0%|pl  0%
+  rakastin   Finnish ( 95.0%)               |en  1%|es  1%|fi 95%|nl  3%|pl  0%
+  intiem     Dutch   ( 21.4%) Pred: Polish  |en 31%|es  4%|fi  4%|nl 21%|pl 41%
+  pijnlijke  Dutch   ( 67.9%)               |en  9%|es  1%|fi  5%|nl 68%|pl 17%
+  vernederen Dutch   ( 98.0%)               |en  1%|es  1%|fi  0%|nl 98%|pl  0%
+  waż        Polish  ( 70.5%)               |en  3%|es 11%|fi  7%|nl  8%|pl 70%
+  pada       Polish  ( 21.0%) Pred: Spanish |en  0%|es 52%|fi 26%|nl  1%|pl 21%
+  spust      Polish  (  5.0%) Pred: English |en 40%|es  2%|fi 31%|nl 22%|pl  5%
+epoch 7 iteration 67 validation-accuracy 76.6%
+  tenant     English ( 42.8%) Pred: Dutch   |en 43%|es  2%|fi  5%|nl 49%|pl  1%
+  agencies   English ( 59.6%)               |en 60%|es 34%|fi  0%|nl  6%|pl  0%
+  pleasures  English ( 27.7%) Pred: Spanish |en 28%|es 71%|fi  0%|nl  1%|pl  0%
+  salgas     Spanish ( 89.8%)               |en  8%|es 90%|fi  0%|nl  2%|pl  0%
+  salvó      Spanish ( 73.1%)               |en  9%|es 73%|fi  4%|nl  2%|pl 12%
+  intención  Spanish ( 96.1%)               |en  3%|es 96%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 65.6%)               |en  1%|es 11%|fi 66%|nl  4%|pl 19%
+  aikaisin   Finnish ( 97.0%)               |en  1%|es  1%|fi 97%|nl  2%|pl  0%
+  rakastin   Finnish ( 45.6%)               |en  8%|es 13%|fi 46%|nl 30%|pl  3%
+  intiem     Dutch   ( 20.3%) Pred: English |en 46%|es  6%|fi  0%|nl 20%|pl 28%
+  pijnlijke  Dutch   ( 92.8%)               |en  3%|es  0%|fi  0%|nl 93%|pl  3%
+  vernederen Dutch   ( 99.7%)               |en  0%|es  0%|fi  0%|nl100%|pl  0%
+  waż        Polish  ( 65.6%)               |en  3%|es 19%|fi  3%|nl  9%|pl 66%
+  pada       Polish  ( 11.6%) Pred: Spanish |en  0%|es 83%|fi  5%|nl  0%|pl 12%
+  spust      Polish  (  4.9%) Pred: English |en 64%|es  3%|fi  5%|nl 23%|pl  5%
+epoch 7 iteration 96 validation-accuracy 79.4%
+  tenant     English ( 37.9%) Pred: Dutch   |en 38%|es  2%|fi  9%|nl 50%|pl  1%
+  agencies   English ( 43.5%) Pred: Spanish |en 43%|es 54%|fi  0%|nl  2%|pl  0%
+  pleasures  English ( 41.1%) Pred: Spanish |en 41%|es 56%|fi  0%|nl  3%|pl  0%
+  salgas     Spanish ( 90.8%)               |en  7%|es 91%|fi  0%|nl  1%|pl  0%
+  salvó      Spanish ( 59.7%)               |en 12%|es 60%|fi  9%|nl  2%|pl 16%
+  intención  Spanish ( 98.1%)               |en  2%|es 98%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 87.9%)               |en  0%|es  4%|fi 88%|nl  2%|pl  6%
+  aikaisin   Finnish ( 98.5%)               |en  0%|es  0%|fi 99%|nl  1%|pl  0%
+  rakastin   Finnish ( 74.2%)               |en  4%|es  9%|fi 74%|nl 11%|pl  2%
+  intiem     Dutch   ( 14.0%) Pred: English |en 51%|es  7%|fi  0%|nl 14%|pl 28%
+  pijnlijke  Dutch   ( 85.7%)               |en  8%|es  1%|fi  0%|nl 86%|pl  6%
+  vernederen Dutch   ( 98.9%)               |en  0%|es  1%|fi  0%|nl 99%|pl  0%
+  waż        Polish  ( 67.5%)               |en  3%|es 16%|fi  4%|nl  9%|pl 67%
+  pada       Polish  ( 12.2%) Pred: Spanish |en  0%|es 77%|fi 10%|nl  1%|pl 12%
+  spust      Polish  (  4.7%) Pred: English |en 66%|es  3%|fi  6%|nl 21%|pl  5%
+epoch 7 iteration 124 validation-accuracy 83.0%
+  tenant     English ( 38.8%) Pred: Dutch   |en 39%|es  1%|fi  8%|nl 51%|pl  1%
+  agencies   English ( 71.5%)               |en 72%|es 24%|fi  0%|nl  4%|pl  0%
+  pleasures  English ( 52.2%)               |en 52%|es 45%|fi  0%|nl  3%|pl  0%
+  salgas     Spanish ( 78.6%)               |en 17%|es 79%|fi  1%|nl  3%|pl  0%
+  salvó      Spanish ( 41.3%)               |en 18%|es 41%|fi 21%|nl  4%|pl 15%
+  intención  Spanish ( 94.0%)               |en  5%|es 94%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 91.4%)               |en  0%|es  2%|fi 91%|nl  2%|pl  4%
+  aikaisin   Finnish ( 98.3%)               |en  0%|es  0%|fi 98%|nl  1%|pl  0%
+  rakastin   Finnish ( 89.5%)               |en  2%|es  1%|fi 90%|nl  7%|pl  1%
+  intiem     Dutch   ( 14.7%) Pred: English |en 48%|es  5%|fi  1%|nl 15%|pl 32%
+  pijnlijke  Dutch   ( 85.9%)               |en  8%|es  0%|fi  1%|nl 86%|pl  5%
+  vernederen Dutch   ( 99.4%)               |en  0%|es  0%|fi  0%|nl 99%|pl  0%
+  waż        Polish  ( 68.2%)               |en  4%|es 12%|fi  5%|nl 11%|pl 68%
+  pada       Polish  ( 18.4%) Pred: Spanish |en  0%|es 59%|fi 21%|nl  1%|pl 18%
+  spust      Polish  (  3.9%) Pred: English |en 62%|es  2%|fi 10%|nl 22%|pl  4%
+epoch 7 iteration 143 validation-accuracy 72.2%
+  tenant     English ( 53.6%)               |en 54%|es  5%|fi 15%|nl 23%|pl  3%
+  agencies   English ( 56.1%)               |en 56%|es 41%|fi  0%|nl  2%|pl  1%
+  pleasures  English ( 38.5%) Pred: Spanish |en 39%|es 58%|fi  1%|nl  2%|pl  1%
+  salgas     Spanish ( 87.0%)               |en 10%|es 87%|fi  1%|nl  1%|pl  0%
+  salvó      Spanish ( 57.0%)               |en 10%|es 57%|fi 21%|nl  2%|pl  9%
+  intención  Spanish ( 90.7%)               |en  6%|es 91%|fi  2%|nl  1%|pl  1%
+  normaalia  Finnish ( 89.6%)               |en  1%|es  6%|fi 90%|nl  1%|pl  2%
+  aikaisin   Finnish ( 89.7%)               |en  2%|es  3%|fi 90%|nl  5%|pl  0%
+  rakastin   Finnish ( 76.0%)               |en  5%|es  9%|fi 76%|nl  9%|pl  0%
+  intiem     Dutch   (  7.3%) Pred: English |en 48%|es 10%|fi  1%|nl  7%|pl 33%
+  pijnlijke  Dutch   ( 37.4%)               |en 19%|es  7%|fi 23%|nl 37%|pl 13%
+  vernederen Dutch   ( 33.9%)               |en  8%|es 25%|fi 32%|nl 34%|pl  1%
+  waż        Polish  ( 53.5%)               |en  7%|es 19%|fi  9%|nl 11%|pl 53%
+  pada       Polish  ( 13.6%) Pred: Spanish |en  0%|es 69%|fi 16%|nl  0%|pl 14%
+  spust      Polish  (  4.4%) Pred: English |en 61%|es  4%|fi 16%|nl 14%|pl  4%
+epoch 7 iteration 173 validation-accuracy 81.0%
+  tenant     English ( 32.5%) Pred: Dutch   |en 32%|es  1%|fi 11%|nl 55%|pl  1%
+  agencies   English ( 56.7%)               |en 57%|es 30%|fi  0%|nl 13%|pl  0%
+  pleasures  English ( 42.7%) Pred: Spanish |en 43%|es 55%|fi  0%|nl  2%|pl  0%
+  salgas     Spanish ( 82.8%)               |en 13%|es 83%|fi  1%|nl  3%|pl  0%
+  salvó      Spanish ( 47.3%)               |en 14%|es 47%|fi 23%|nl  3%|pl 13%
+  intención  Spanish ( 97.6%)               |en  2%|es 98%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 90.8%)               |en  0%|es  3%|fi 91%|nl  1%|pl  5%
+  aikaisin   Finnish ( 99.2%)               |en  0%|es  0%|fi 99%|nl  0%|pl  0%
+  rakastin   Finnish ( 88.9%)               |en  1%|es  2%|fi 89%|nl  7%|pl  1%
+  intiem     Dutch   ( 19.9%) Pred: Polish  |en 35%|es  5%|fi  0%|nl 20%|pl 39%
+  pijnlijke  Dutch   ( 89.2%)               |en  4%|es  0%|fi  0%|nl 89%|pl  7%
+  vernederen Dutch   ( 99.3%)               |en  0%|es  0%|fi  0%|nl 99%|pl  0%
+  waż        Polish  ( 74.2%)               |en  3%|es 11%|fi  4%|nl  9%|pl 74%
+  pada       Polish  ( 15.1%) Pred: Spanish |en  0%|es 70%|fi 14%|nl  1%|pl 15%
+  spust      Polish  (  5.9%) Pred: English |en 63%|es  2%|fi  8%|nl 21%|pl  6%
+0.804
+epoch 8 iteration 26 validation-accuracy 81.4%
+  tenant     English ( 41.5%) Pred: Dutch   |en 41%|es  1%|fi 13%|nl 43%|pl  1%
+  agencies   English ( 66.5%)               |en 66%|es 25%|fi  0%|nl  8%|pl  0%
+  pleasures  English ( 40.9%) Pred: Spanish |en 41%|es 56%|fi  0%|nl  2%|pl  0%
+  salgas     Spanish ( 81.5%)               |en 13%|es 81%|fi  2%|nl  3%|pl  0%
+  salvó      Spanish ( 43.5%)               |en 12%|es 43%|fi 30%|nl  3%|pl 11%
+  intención  Spanish ( 93.9%)               |en  5%|es 94%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 94.2%)               |en  0%|es  2%|fi 94%|nl  1%|pl  3%
+  aikaisin   Finnish ( 96.8%)               |en  1%|es  1%|fi 97%|nl  2%|pl  0%
+  rakastin   Finnish ( 89.5%)               |en  2%|es  2%|fi 89%|nl  6%|pl  0%
+  intiem     Dutch   ( 17.6%) Pred: English |en 40%|es  5%|fi  1%|nl 18%|pl 37%
+  pijnlijke  Dutch   ( 86.7%)               |en  5%|es  0%|fi  1%|nl 87%|pl  7%
+  vernederen Dutch   ( 96.4%)               |en  1%|es  1%|fi  2%|nl 96%|pl  0%
+  waż        Polish  ( 67.8%)               |en  4%|es 11%|fi  6%|nl 11%|pl 68%
+  pada       Polish  ( 15.2%) Pred: Spanish |en  0%|es 63%|fi 21%|nl  1%|pl 15%
+  spust      Polish  (  4.4%) Pred: English |en 57%|es  2%|fi 16%|nl 21%|pl  4%
+epoch 8 iteration 56 validation-accuracy 81.6%
+  tenant     English ( 42.7%) Pred: Dutch   |en 43%|es  1%|fi  7%|nl 48%|pl  1%
+  agencies   English ( 64.1%)               |en 64%|es 30%|fi  0%|nl  6%|pl  0%
+  pleasures  English ( 46.1%) Pred: Spanish |en 46%|es 52%|fi  0%|nl  2%|pl  0%
+  salgas     Spanish ( 85.5%)               |en 12%|es 86%|fi  0%|nl  2%|pl  0%
+  salvó      Spanish ( 61.5%)               |en 14%|es 62%|fi 13%|nl  3%|pl  9%
+  intención  Spanish ( 97.2%)               |en  2%|es 97%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 88.6%)               |en  0%|es  5%|fi 89%|nl  2%|pl  4%
+  aikaisin   Finnish ( 96.7%)               |en  1%|es  0%|fi 97%|nl  2%|pl  0%
+  rakastin   Finnish ( 86.9%)               |en  3%|es  2%|fi 87%|nl  8%|pl  0%
+  intiem     Dutch   ( 15.3%) Pred: English |en 41%|es  6%|fi  0%|nl 15%|pl 37%
+  pijnlijke  Dutch   ( 90.7%)               |en  6%|es  1%|fi  1%|nl 91%|pl  3%
+  vernederen Dutch   ( 98.6%)               |en  0%|es  1%|fi  0%|nl 99%|pl  0%
+  waż        Polish  ( 71.5%)               |en  4%|es 11%|fi  3%|nl 11%|pl 71%
+  pada       Polish  ( 15.2%) Pred: Spanish |en  0%|es 78%|fi  6%|nl  0%|pl 15%
+  spust      Polish  (  4.1%) Pred: English |en 69%|es  2%|fi  5%|nl 20%|pl  4%
+epoch 8 iteration 83 validation-accuracy 82.8%
+  tenant     English ( 25.4%) Pred: Dutch   |en 25%|es  0%|fi  8%|nl 66%|pl  0%
+  agencies   English ( 58.7%)               |en 59%|es 15%|fi  0%|nl 26%|pl  0%
+  pleasures  English ( 59.8%)               |en 60%|es 35%|fi  0%|nl  5%|pl  0%
+  salgas     Spanish ( 76.0%)               |en 18%|es 76%|fi  1%|nl  5%|pl  0%
+  salvó      Spanish ( 48.0%)               |en 20%|es 48%|fi 19%|nl  4%|pl  9%
+  intención  Spanish ( 94.2%)               |en  4%|es 94%|fi  0%|nl  1%|pl  0%
+  normaalia  Finnish ( 86.8%)               |en  0%|es  3%|fi 87%|nl  3%|pl  7%
+  aikaisin   Finnish ( 99.0%)               |en  0%|es  0%|fi 99%|nl  1%|pl  0%
+  rakastin   Finnish ( 90.8%)               |en  2%|es  1%|fi 91%|nl  6%|pl  1%
+  intiem     Dutch   ( 32.4%) Pred: English |en 36%|es  3%|fi  1%|nl 32%|pl 29%
+  pijnlijke  Dutch   ( 97.1%)               |en  2%|es  0%|fi  0%|nl 97%|pl  1%
+  vernederen Dutch   ( 99.7%)               |en  0%|es  0%|fi  0%|nl100%|pl  0%
+  waż        Polish  ( 72.9%)               |en  4%|es 10%|fi  3%|nl 11%|pl 73%
+  pada       Polish  ( 18.4%) Pred: Spanish |en  0%|es 71%|fi 10%|nl  0%|pl 18%
+  spust      Polish  (  3.7%) Pred: English |en 64%|es  1%|fi  7%|nl 23%|pl  4%
+epoch 8 iteration 107 validation-accuracy 83.0%
+  tenant     English ( 29.7%) Pred: Dutch   |en 30%|es  1%|fi 17%|nl 52%|pl  0%
+  agencies   English ( 60.4%)               |en 60%|es 25%|fi  0%|nl 14%|pl  0%
+  pleasures  English ( 59.0%)               |en 59%|es 37%|fi  0%|nl  4%|pl  0%
+  salgas     Spanish ( 77.5%)               |en 17%|es 78%|fi  1%|nl  4%|pl  0%
+  salvó      Spanish ( 40.2%)               |en 16%|es 40%|fi 33%|nl  4%|pl  6%
+  intención  Spanish ( 97.1%)               |en  2%|es 97%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 98.3%)               |en  0%|es  1%|fi 98%|nl  0%|pl  1%
+  aikaisin   Finnish ( 99.5%)               |en  0%|es  0%|fi 99%|nl  0%|pl  0%
+  rakastin   Finnish ( 97.2%)               |en  1%|es  0%|fi 97%|nl  2%|pl  0%
+  intiem     Dutch   ( 33.7%) Pred: English |en 45%|es  4%|fi  1%|nl 34%|pl 17%
+  pijnlijke  Dutch   ( 96.6%)               |en  2%|es  0%|fi  0%|nl 97%|pl  1%
+  vernederen Dutch   ( 99.5%)               |en  0%|es  0%|fi  0%|nl 99%|pl  0%
+  waż        Polish  ( 70.3%)               |en  4%|es 11%|fi  3%|nl 12%|pl 70%
+  pada       Polish  ( 10.9%) Pred: Spanish |en  0%|es 73%|fi 15%|nl  1%|pl 11%
+  spust      Polish  (  2.2%) Pred: English |en 65%|es  1%|fi  9%|nl 23%|pl  2%
+epoch 8 iteration 161 validation-accuracy 80.6%
+  tenant     English ( 30.4%) Pred: Dutch   |en 30%|es  1%|fi 26%|nl 42%|pl  1%
+  agencies   English ( 50.1%)               |en 50%|es 46%|fi  0%|nl  4%|pl  0%
+  pleasures  English ( 42.9%) Pred: Spanish |en 43%|es 55%|fi  0%|nl  2%|pl  0%
+  salgas     Spanish ( 90.1%)               |en  8%|es 90%|fi  1%|nl  1%|pl  0%
+  salvó      Spanish ( 48.1%)               |en 19%|es 48%|fi 26%|nl  3%|pl  4%
+  intención  Spanish ( 94.8%)               |en  5%|es 95%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 97.4%)               |en  0%|es  1%|fi 97%|nl  1%|pl  0%
+  aikaisin   Finnish ( 98.7%)               |en  0%|es  0%|fi 99%|nl  1%|pl  0%
+  rakastin   Finnish ( 90.6%)               |en  2%|es  1%|fi 91%|nl  5%|pl  0%
+  intiem     Dutch   ( 18.1%) Pred: English |en 65%|es  6%|fi  1%|nl 18%|pl 10%
+  pijnlijke  Dutch   ( 85.5%)               |en  9%|es  1%|fi  3%|nl 86%|pl  2%
+  vernederen Dutch   ( 85.7%)               |en  3%|es  7%|fi  4%|nl 86%|pl  0%
+  waż        Polish  ( 51.3%)               |en  7%|es 18%|fi  5%|nl 19%|pl 51%
+  pada       Polish  (  4.1%) Pred: Spanish |en  0%|es 81%|fi 15%|nl  0%|pl  4%
+  spust      Polish  (  1.7%) Pred: English |en 71%|es  1%|fi  7%|nl 19%|pl  2%
+0.796
+epoch 9 iteration 39 validation-accuracy 81.4%
+  tenant     English ( 34.1%) Pred: Dutch   |en 34%|es  1%|fi  4%|nl 60%|pl  1%
+  agencies   English ( 61.0%)               |en 61%|es 30%|fi  0%|nl  9%|pl  0%
+  pleasures  English ( 57.9%)               |en 58%|es 39%|fi  0%|nl  3%|pl  0%
+  salgas     Spanish ( 89.2%)               |en  9%|es 89%|fi  0%|nl  2%|pl  0%
+  salvó      Spanish ( 55.8%)               |en 19%|es 56%|fi  8%|nl  3%|pl 13%
+  intención  Spanish ( 94.8%)               |en  5%|es 95%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 77.2%)               |en  1%|es  9%|fi 77%|nl  4%|pl  9%
+  aikaisin   Finnish ( 98.2%)               |en  0%|es  0%|fi 98%|nl  1%|pl  0%
+  rakastin   Finnish ( 66.8%)               |en  7%|es  4%|fi 67%|nl 21%|pl  2%
+  intiem     Dutch   ( 23.7%) Pred: English |en 41%|es  4%|fi  0%|nl 24%|pl 31%
+  pijnlijke  Dutch   ( 91.3%)               |en  3%|es  0%|fi  0%|nl 91%|pl  5%
+  vernederen Dutch   ( 97.1%)               |en  1%|es  2%|fi  0%|nl 97%|pl  0%
+  waż        Polish  ( 73.7%)               |en  3%|es  9%|fi  2%|nl 12%|pl 74%
+  pada       Polish  ( 15.6%) Pred: Spanish |en  0%|es 80%|fi  4%|nl  0%|pl 16%
+  spust      Polish  (  6.1%) Pred: English |en 65%|es  1%|fi  2%|nl 26%|pl  6%
+epoch 9 iteration 95 validation-accuracy 84.8%
+  tenant     English ( 44.3%)               |en 44%|es  1%|fi 11%|nl 42%|pl  1%
+  agencies   English ( 76.5%)               |en 77%|es 19%|fi  0%|nl  4%|pl  0%
+  pleasures  English ( 71.6%)               |en 72%|es 27%|fi  0%|nl  1%|pl  0%
+  salgas     Spanish ( 88.1%)               |en 10%|es 88%|fi  1%|nl  1%|pl  0%
+  salvó      Spanish ( 58.5%)               |en 17%|es 58%|fi 14%|nl  2%|pl  9%
+  intención  Spanish ( 91.2%)               |en  8%|es 91%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 96.3%)               |en  0%|es  1%|fi 96%|nl  1%|pl  1%
+  aikaisin   Finnish ( 99.4%)               |en  0%|es  0%|fi 99%|nl  0%|pl  0%
+  rakastin   Finnish ( 91.2%)               |en  3%|es  1%|fi 91%|nl  4%|pl  0%
+  intiem     Dutch   ( 20.9%) Pred: English |en 56%|es  3%|fi  0%|nl 21%|pl 20%
+  pijnlijke  Dutch   ( 96.6%)               |en  2%|es  0%|fi  0%|nl 97%|pl  1%
+  vernederen Dutch   ( 97.6%)               |en  1%|es  1%|fi  0%|nl 98%|pl  0%
+  waż        Polish  ( 75.0%)               |en  3%|es 10%|fi  2%|nl 10%|pl 75%
+  pada       Polish  (  8.7%) Pred: Spanish |en  0%|es 85%|fi  6%|nl  0%|pl  9%
+  spust      Polish  (  2.3%) Pred: English |en 76%|es  1%|fi  3%|nl 18%|pl  2%
+epoch 9 iteration 135 validation-accuracy 83.2%
+  tenant     English ( 22.2%) Pred: Dutch   |en 22%|es  1%|fi  8%|nl 68%|pl  0%
+  agencies   English ( 48.8%)               |en 49%|es 27%|fi  0%|nl 24%|pl  0%
+  pleasures  English ( 55.0%)               |en 55%|es 35%|fi  0%|nl 10%|pl  0%
+  salgas     Spanish ( 91.4%)               |en  5%|es 91%|fi  1%|nl  3%|pl  0%
+  salvó      Spanish ( 61.4%)               |en 16%|es 61%|fi 13%|nl  4%|pl  6%
+  intención  Spanish ( 95.2%)               |en  4%|es 95%|fi  0%|nl  1%|pl  0%
+  normaalia  Finnish ( 94.7%)               |en  0%|es  3%|fi 95%|nl  1%|pl  1%
+  aikaisin   Finnish ( 98.0%)               |en  1%|es  0%|fi 98%|nl  1%|pl  0%
+  rakastin   Finnish ( 85.9%)               |en  3%|es  1%|fi 86%|nl  9%|pl  0%
+  intiem     Dutch   ( 37.2%) Pred: English |en 41%|es  3%|fi  1%|nl 37%|pl 18%
+  pijnlijke  Dutch   ( 82.1%)               |en 11%|es  2%|fi  2%|nl 82%|pl  3%
+  vernederen Dutch   ( 90.8%)               |en  2%|es  4%|fi  3%|nl 91%|pl  0%
+  waż        Polish  ( 71.1%)               |en  3%|es 11%|fi  2%|nl 12%|pl 71%
+  pada       Polish  (  7.9%) Pred: Spanish |en  0%|es 87%|fi  5%|nl  0%|pl  8%
+  spust      Polish  (  1.3%) Pred: English |en 66%|es  1%|fi  2%|nl 30%|pl  1%
+0.846
+epoch 10 iteration 17 validation-accuracy 84.4%
+  tenant     English ( 29.1%) Pred: Dutch   |en 29%|es  1%|fi 13%|nl 56%|pl  1%
+  agencies   English ( 52.0%)               |en 52%|es 26%|fi  0%|nl 21%|pl  1%
+  pleasures  English ( 78.1%)               |en 78%|es 18%|fi  0%|nl  3%|pl  1%
+  salgas     Spanish ( 86.5%)               |en  9%|es 86%|fi  1%|nl  2%|pl  0%
+  salvó      Spanish ( 46.4%)               |en 17%|es 46%|fi 19%|nl  2%|pl 15%
+  intención  Spanish ( 96.1%)               |en  3%|es 96%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 90.2%)               |en  0%|es  1%|fi 90%|nl  1%|pl  7%
+  aikaisin   Finnish ( 99.5%)               |en  0%|es  0%|fi 99%|nl  0%|pl  0%
+  rakastin   Finnish ( 94.4%)               |en  2%|es  0%|fi 94%|nl  3%|pl  0%
+  intiem     Dutch   ( 31.0%) Pred: Polish  |en 25%|es  1%|fi  0%|nl 31%|pl 42%
+  pijnlijke  Dutch   ( 95.9%)               |en  2%|es  0%|fi  0%|nl 96%|pl  2%
+  vernederen Dutch   ( 97.9%)               |en  1%|es  1%|fi  1%|nl 98%|pl  0%
+  waż        Polish  ( 82.2%)               |en  2%|es  5%|fi  1%|nl  9%|pl 82%
+  pada       Polish  ( 17.8%) Pred: Spanish |en  0%|es 76%|fi  5%|nl  0%|pl 18%
+  spust      Polish  (  2.6%) Pred: English |en 64%|es  1%|fi  6%|nl 27%|pl  3%
+epoch 10 iteration 77 validation-accuracy 83.8%
+  tenant     English ( 23.3%) Pred: Dutch   |en 23%|es  1%|fi 18%|nl 57%|pl  1%
+  agencies   English ( 35.5%) Pred: Spanish |en 35%|es 53%|fi  0%|nl 11%|pl  0%
+  pleasures  English ( 62.9%)               |en 63%|es 34%|fi  1%|nl  2%|pl  0%
+  salgas     Spanish ( 94.1%)               |en  5%|es 94%|fi  0%|nl  1%|pl  0%
+  salvó      Spanish ( 66.3%)               |en 13%|es 66%|fi 13%|nl  1%|pl  7%
+  intención  Spanish ( 98.7%)               |en  1%|es 99%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 98.0%)               |en  0%|es  1%|fi 98%|nl  0%|pl  1%
+  aikaisin   Finnish ( 99.9%)               |en  0%|es  0%|fi100%|nl  0%|pl  0%
+  rakastin   Finnish ( 98.5%)               |en  1%|es  0%|fi 99%|nl  1%|pl  0%
+  intiem     Dutch   ( 23.8%) Pred: English |en 39%|es  4%|fi  1%|nl 24%|pl 32%
+  pijnlijke  Dutch   ( 97.2%)               |en  2%|es  0%|fi  0%|nl 97%|pl  1%
+  vernederen Dutch   ( 96.3%)               |en  1%|es  2%|fi  1%|nl 96%|pl  0%
+  waż        Polish  ( 82.0%)               |en  2%|es  7%|fi  1%|nl  8%|pl 82%
+  pada       Polish  ( 15.9%) Pred: Spanish |en  0%|es 79%|fi  5%|nl  0%|pl 16%
+  spust      Polish  (  2.2%) Pred: English |en 75%|es  1%|fi  5%|nl 17%|pl  2%
+epoch 10 iteration 125 validation-accuracy 84.2%
+  tenant     English ( 36.6%) Pred: Dutch   |en 37%|es  1%|fi  7%|nl 55%|pl  1%
+  agencies   English ( 43.8%) Pred: Spanish |en 44%|es 47%|fi  0%|nl  8%|pl  0%
+  pleasures  English ( 63.7%)               |en 64%|es 35%|fi  0%|nl  1%|pl  0%
+  salgas     Spanish ( 93.2%)               |en  6%|es 93%|fi  0%|nl  1%|pl  0%
+  salvó      Spanish ( 71.2%)               |en 16%|es 71%|fi  7%|nl  1%|pl  5%
+  intención  Spanish ( 99.4%)               |en  1%|es 99%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 93.4%)               |en  0%|es  2%|fi 93%|nl  2%|pl  2%
+  aikaisin   Finnish ( 99.5%)               |en  0%|es  0%|fi 99%|nl  0%|pl  0%
+  rakastin   Finnish ( 89.5%)               |en  5%|es  1%|fi 89%|nl  4%|pl  0%
+  intiem     Dutch   ( 17.5%) Pred: Polish  |en 36%|es  4%|fi  0%|nl 18%|pl 42%
+  pijnlijke  Dutch   ( 98.4%)               |en  1%|es  0%|fi  0%|nl 98%|pl  0%
+  vernederen Dutch   ( 99.6%)               |en  0%|es  0%|fi  0%|nl100%|pl  0%
+  waż        Polish  ( 78.2%)               |en  3%|es  7%|fi  1%|nl 10%|pl 78%
+  pada       Polish  ( 16.6%) Pred: Spanish |en  0%|es 78%|fi  5%|nl  0%|pl 17%
+  spust      Polish  (  1.2%) Pred: English |en 80%|es  1%|fi  2%|nl 16%|pl  1%
+epoch 10 iteration 130 validation-accuracy 86.0%
+  tenant     English ( 32.1%) Pred: Dutch   |en 32%|es  1%|fi 11%|nl 56%|pl  1%
+  agencies   English ( 52.2%)               |en 52%|es 34%|fi  0%|nl 14%|pl  0%
+  pleasures  English ( 76.8%)               |en 77%|es 19%|fi  0%|nl  3%|pl  0%
+  salgas     Spanish ( 91.1%)               |en  7%|es 91%|fi  1%|nl  1%|pl  0%
+  salvó      Spanish ( 64.7%)               |en 18%|es 65%|fi  9%|nl  1%|pl  7%
+  intención  Spanish ( 97.1%)               |en  3%|es 97%|fi  0%|nl  0%|pl  0%
+  normaalia  Finnish ( 96.0%)               |en  0%|es  1%|fi 96%|nl  1%|pl  1%
+  aikaisin   Finnish ( 99.3%)               |en  0%|es  0%|fi 99%|nl  0%|pl  0%
+  rakastin   Finnish ( 91.7%)               |en  4%|es  1%|fi 92%|nl  4%|pl  0%
+  intiem     Dutch   ( 21.5%) Pred: Polish  |en 36%|es  3%|fi  1%|nl 21%|pl 39%
+  pijnlijke  Dutch   ( 96.1%)               |en  2%|es  0%|fi  1%|nl 96%|pl  1%
+  vernederen Dutch   ( 93.7%)               |en  1%|es  2%|fi  3%|nl 94%|pl  0%
+  waż        Polish  ( 81.1%)               |en  3%|es  5%|fi  1%|nl  9%|pl 81%
+  pada       Polish  ( 30.5%) Pred: Spanish |en  0%|es 64%|fi  5%|nl  0%|pl 31%
+  spust      Polish  (  1.4%) Pred: English |en 80%|es  0%|fi  2%|nl 16%|pl  1%
+epoch 10 iteration 162 validation-accuracy 82.0%
+  tenant     English ( 33.7%) Pred: Dutch   |en 34%|es  2%|fi 17%|nl 45%|pl  2%
+  agencies   English ( 33.2%) Pred: Spanish |en 33%|es 51%|fi  1%|nl 14%|pl  1%
+  pleasures  English ( 34.8%) Pred: Spanish |en 35%|es 62%|fi  1%|nl  2%|pl  0%
+  salgas     Spanish ( 93.0%)               |en  4%|es 93%|fi  2%|nl  1%|pl  0%
+  salvó      Spanish ( 75.3%)               |en  7%|es 75%|fi 11%|nl  1%|pl  6%
+  intención  Spanish ( 96.6%)               |en  2%|es 97%|fi  1%|nl  0%|pl  0%
+  normaalia  Finnish ( 89.0%)               |en  0%|es  5%|fi 89%|nl  2%|pl  3%
+  aikaisin   Finnish ( 95.3%)               |en  1%|es  1%|fi 95%|nl  2%|pl  0%
+  rakastin   Finnish ( 80.9%)               |en  5%|es  5%|fi 81%|nl  8%|pl  0%
+  intiem     Dutch   ( 21.8%) Pred: Polish  |en 24%|es  5%|fi  1%|nl 22%|pl 48%
+  pijnlijke  Dutch   ( 95.2%)               |en  2%|es  0%|fi  1%|nl 95%|pl  2%
+  vernederen Dutch   ( 95.4%)               |en  1%|es  2%|fi  2%|nl 95%|pl  0%
+  waż        Polish  ( 75.7%)               |en  3%|es  9%|fi  2%|nl 10%|pl 76%
+  pada       Polish  ( 11.1%) Pred: Spanish |en  0%|es 84%|fi  5%|nl  0%|pl 11%
+  spust      Polish  (  3.2%) Pred: English |en 63%|es  2%|fi  8%|nl 25%|pl  3%
+0.852
+Your final test set accuracy is: 81.000000%
+*** PASS: check_lang_id
+
+### Question q4: 7/7 ###
+
+Finished at 16:46:45
+
+Provisional grades
+==================
+Question q1: 6/6
+Question q2: 6/6
+Question q3: 6/6
+Question q4: 7/7
+------------------
+Total: 25/25
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
+(base) kyle@Kyles-MacBook-Pro machinelearning % 

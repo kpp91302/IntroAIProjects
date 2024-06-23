@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+
+CS 188 Local Submission Autograder
+Version 1.4.0
+
+-------------------------------------------------------------------------------
+
+Setting up environment.................................................... DONE
+Downloading autograder.................................................... DONE
+Extracting autograder..................................................... DONE
+Preparing student files:
+  multiAgents.py................... OK
+Running tests (this may take a while):
+/private/var/folders/sg/wy_vnw8s09z51p8qm7f2hh7m0000gn/T/cs188-y5brbewn/autograder.py:17: DeprecationWarning: the imp module is deprecated in favour of importlib and slated for removal in Python 3.12; see the module's documentation for alternative uses
+  import imp
+  Question q1...................... 4/4 
+  Question q2...................... 5/5 
+  Question q3...................... 5/5 
+  Question q4...................... 5/5 
+  Question q5...................... 6/6 
+Generating submission token............................................... DONE
+
+-------------------------------------------------------------------------------
+
+Final score: 25/25
+Token file: multiagent.token
+
+Please make sure that this score matches the result produced by autograder.py.
+To submit your grade, upload the generated token file to Gradescope.
+
+If you encounter any problems, notify the course staff via Piazza.
+
+-------------------------------------------------------------------------------

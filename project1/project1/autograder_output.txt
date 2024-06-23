@@ -1,0 +1,38 @@
+(base) kyle@Kyles-MacBook-Pro project1 % python submission_autograder.py
+-------------------------------------------------------------------------------
+
+CS 188 Local Submission Autograder
+Version 1.4.0
+
+-------------------------------------------------------------------------------
+
+Setting up environment.................................................... DONE
+Downloading autograder.................................................... DONE
+Extracting autograder..................................................... DONE
+Preparing student files:
+  searchAgents.py.................. OK
+  search.py........................ OK
+Running tests (this may take a while):
+/private/var/folders/sg/wy_vnw8s09z51p8qm7f2hh7m0000gn/T/cs188-_x3j1itn/autograder.py:17: DeprecationWarning: the imp module is deprecated in favour of importlib and slated for removal in Python 3.12; see the module's documentation for alternative uses
+  import imp
+  Question q1...................... 3/3 
+  Question q2...................... 3/3 
+  Question q3...................... 3/3 
+  Question q4...................... 3/3 
+  Question q5...................... 3/3 
+  Question q6...................... 3/3 
+  Question q7...................... 5/4 
+  Question q8...................... 3/3 
+Generating submission token............................................... DONE
+
+-------------------------------------------------------------------------------
+
+Final score: 26/25
+Token file: search.token
+
+Please make sure that this score matches the result produced by autograder.py.
+To submit your grade, upload the generated token file to Gradescope.
+
+If you encounter any problems, notify the course staff via Piazza.
+
+-------------------------------------------------------------------------------
